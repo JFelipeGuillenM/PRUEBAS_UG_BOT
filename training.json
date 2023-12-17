@@ -1,0 +1,19 @@
+{
+    "intents":[
+        {
+            "tag": "saludo",
+            "patterns": ["Hola", "Qué tal", "Cómo estás", "Saludos"],
+            "responses": ["¡Hola!", "Buenos días", "Hola, ¿En qué puedo ayudarte?"]
+        },
+        {   
+            "tag": "agradecimiento",
+            "patterns": ["Gracias", "Muchas gracias", "Eso es todo, gracias", "Gracias por la ayuda"],
+            "responses": ["Fue un placer", "Fue un placer ayudarte"]
+        },
+        {   
+            "tag": "despedida",
+            "patterns": ["Chao", "Adios", "Bye", "Hasta luego", "Hasta pronto"],
+            "responses": ["Adiós, espero haber sido de utilidad", "Adiós, hasta la próxima", "Adiós, estaré aquí si tienes otra duda"]
+        }
+    ]
+}
